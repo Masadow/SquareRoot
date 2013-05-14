@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<start x="100" y="225" />
+	<basic x="77" y="160" w="65" h="143" />
+	<hide x="142" y="121" w="341" h="222" />
+	<finish x="483" y="160" w="65" h="143" />
+	<!-- >Enemies range x > 142 && x < 483 && y > 121 && y < 343 </!-->
+	<enemy x="253" y="200" radius="8">
+		<path x="189" y="140" />
+		<path x="200" y="260" />
+	</enemy>
+	<enemy x="180" y="230" radius="8">
+		<path x="350" y="170" />
+		<path x="245" y="160" />
+	</enemy>
+	<enemy x="370" y="150" radius="8">
+		<path x="380" y="320" />
+		<path x="200" y="160" />
+	</enemy>
+	<enemy x="450" y="330" radius="8">
+		<path x="340" y="140" />
+		<path x="450" y="180" />
+	</enemy>
+	<enemy x="450" y="200" radius="8">
+		<path x="200" y="220" />
+		<path x="300" y="300" />
+	</enemy>
+	<enemy x="412" y="240" radius="8">
+		<path x="350" y="180" />
+		<path x="150" y="280" />
+	</enemy>
+	<enemy x="320" y="180" radius="8">
+		<path x="300" y="300" />
+		<path x="280" y="180" />
+	</enemy>
+	<enemy x="400" y="200" radius="8">
+		<path x="180" y="164" />
+		<path x="270" y="286" />
+	</enemy>
+	<enemy x="250" y="300" radius="8">
+		<path x="400" y="200" />
+		<path x="300" y="250" />
+	</enemy>
+	<enemy x="280" y="200" radius="8">
+		<path x="400" y="180" />
+		<path x="380" y="325" />
+	</enemy>
+	<enemy x="400" y="280" radius="8">
+		<path x="260" y="300" />
+		<path x="440" y="320" />
+	</enemy>
+	<enemy x="440" y="220" radius="8">
+		<path x="420" y="200" />
+		<path x="250" y="180" />
+	</enemy>
+</data>

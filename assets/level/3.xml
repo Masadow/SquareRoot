@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<start x="290" y="135" />
+	<basic x="258" y="112" w="86" h="244" />
+	<smooth x="224" y="356" w="151" h="26" />
+	<!-- left -->
+	<freeze x="124" y="277" w="100" h="105" />
+	<smooth x="163" y="221" w="24" h="56" />
+	<finish x="134" y="182" w="84" h="39" />
+	<!-- right -->
+	<freeze x="375" y="277" w="100" h="105" />
+	<smooth x="411" y="221" w="24" h="56" />
+	<finish x="380" y="182" w="85" h="39" />
+</data>

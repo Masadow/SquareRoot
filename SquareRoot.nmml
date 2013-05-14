@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<app title="SquareRoot" file="SquareRoot" main="Main" version="0.0.1" company="Zaphod" />
+	
+	<window width="640" height="480" fps="30" orientation="portrait" resizable="true" if="web" />
+	<window width="640" height="480" fps="30" orientation="landscape" fullscreen="false" unless="web" />
+ 	
+	<set name="BUILD_DIR" value="export" />
+	
+	<!--<setenv name="no_console" value="1" />-->
+	
+	<classpath name="source" />
+	
+	<assets path="assets" if="android" >
+		<sound path="data/beep.wav" id="Beep" />
+		
+	</assets>
+	
+	<assets path="assets" if="desktop" >
+		<sound path="data/beep.wav" id="Beep" />
+		
+	</assets>
+	
+	<assets path="assets" if="flash" >
+		<sound path="data/beep.mp3" id="Beep" />
+		<sound path="levelselection.mp3" id="levelselection.mp3" />
+		<sound path="level0.mp3" id="level0.mp3" />
+		<sound path="level1.mp3" id="level1.mp3" />
+		<sound path="nuke.wav" id="nuke.wav" />
+		
+	</assets>
+	
+	<assets path="assets" if="target_js" >
+		<sound path="data/beep.mp3" id="Beep" />
+		
+	</assets>
+
+	<assets path="assets">
+		<image path="levelselection.png" id="levelselection.png" />
+		<image path="endscreen.png" id="endscreen.png" />
+		<image path="potatonuke.png" id="potatonuke.png" />
+		
+		<image path="level/icon/1.png" id="icon1" />
+		<image path="level/icon/1bis.png" id="icon1bis" />
+
+		<image path="level/icon/2.png" id="icon2" />
+		<image path="level/icon/2bis.png" id="icon2bis" />
+
+		<image path="level/icon/3.png" id="icon3" />
+		<image path="level/icon/3bis.png" id="icon3bis" />
+
+		<image path="level/icon/4.png" id="icon4" />
+		<image path="level/icon/4bis.png" id="icon4bis" />
+
+		<image path="level/icon/5.png" id="icon5" />
+		<image path="level/icon/5bis.png" id="icon5bis" />
+
+		<image path="level/icon/6.png" id="icon6" />
+		<image path="level/icon/6bis.png" id="icon6bis" />
+
+		<image path="level/icon/7.png" id="icon7" />
+		<image path="level/icon/7bis.png" id="icon7bis" />
+
+		<image path="level/icon/8.png" id="icon8" />
+		<image path="level/icon/8bis.png" id="icon8bis" />
+
+		<image path="level/icon/9.png" id="icon9" />
+		<image path="level/icon/9bis.png" id="icon9bis" />
+
+		<image path="level/icon/10.png" id="icon10" />
+		<image path="level/icon/10bis.png" id="icon10bis" />
+
+		<image path="level/icon/11.png" id="icon11" />
+		<image path="level/icon/11bis.png" id="icon11bis" />
+
+		<image path="level/icon/12.png" id="icon12" />
+		<image path="level/icon/12bis.png" id="icon12bis" />
+
+		<image path="level/icon/13.png" id="icon13" />
+		<image path="level/icon/13bis.png" id="icon13bis" />
+
+		<image path="level/icon/14.png" id="icon14" />
+		<image path="level/icon/14bis.png" id="icon14bis" />
+
+		<image path="level/icon/15.png" id="icon15" />
+		<image path="level/icon/15bis.png" id="icon15bis" />
+
+		<image path="level/icon/16.png" id="icon16" />
+		<image path="level/icon/16bis.png" id="icon16bis" />
+
+		<image path="level/icon/17.png" id="icon17" />
+		<image path="level/icon/17bis.png" id="icon17bis" />
+
+		<image path="level/icon/18.png" id="icon18" />
+		<image path="level/icon/18bis.png" id="icon18bis" />
+
+		<image path="level/icon/19.png" id="icon19" />
+		<image path="level/icon/19bis.png" id="icon19bis" />
+
+		<image path="level/icon/20.png" id="icon20" />
+		<image path="level/icon/20bis.png" id="icon20bis" />
+
+		<image path="level/icon/21.png" id="icon21" />
+		<image path="level/icon/21bis.png" id="icon21bis" />
+
+		<image path="level/icon/22.png" id="icon22" />
+		<image path="level/icon/22bis.png" id="icon22bis" />
+
+		<image path="level/icon/23.png" id="icon23" />
+		<image path="level/icon/23bis.png" id="icon23bis" />
+
+		<image path="level/icon/24.png" id="icon24" />
+		<image path="level/icon/24bis.png" id="icon24bis" />
+
+		<image path="level/icon/25.png" id="icon25" />
+		<image path="level/icon/25bis.png" id="icon25bis" />
+
+		<image path="level/icon/26.png" id="icon26" />
+		<image path="level/icon/26bis.png" id="icon26bis" />
+
+		<image path="level/icon/27.png" id="icon27" />
+		<image path="level/icon/27bis.png" id="icon27bis" />
+
+		<image path="level/icon/28.png" id="icon28" />
+		<image path="level/icon/28bis.png" id="icon28bis" />
+
+		<image path="level/icon/29.png" id="icon29" />
+		<image path="level/icon/29bis.png" id="icon29bis" />
+
+		<image path="level/icon/30.png" id="icon30" />
+		<image path="level/icon/30bis.png" id="icon30bis" />
+
+		<image path="level/1.png" id="level1" />
+		<asset path="level/1.xml" id="level1.layout" />
+		<asset path="level/2.xml" id="level2.layout" />		
+		<asset path="level/3.xml" id="level3.layout" />
+		<asset path="level/4.xml" id="level4.layout" />
+		<asset path="level/5.xml" id="level5.layout" />
+		<asset path="level/6.xml" id="level6.layout" />
+		<asset path="level/7.xml" id="level7.layout" />
+		<asset path="level/8.xml" id="level8.layout" />
+		<!--
+		<image path="level/9.png" id="level9" />
+		<asset path="level/9.xml" id="level9.layout" />
+		<image path="level/10.png" id="level10" />
+		<asset path="level/10.xml" id="level10.layout" />
+		<image path="level/11.png" id="level11" />
+		<asset path="level/11.xml" id="level11.layout" />
+		<image path="level/12.png" id="level12" />
+		<asset path="level/12.xml" id="level12.layout" />
+		<image path="level/13.png" id="level13" />
+		<asset path="level/13.xml" id="level13.layout" />
+		<image path="level/14.png" id="level14" />
+		<asset path="level/14.xml" id="level14.layout" />
+		<image path="level/15.png" id="level15" />
+		<asset path="level/15.xml" id="level15.layout" />
+		<image path="level/16.png" id="level16" />
+		<asset path="level/16.xml" id="level16.layout" />
+		<image path="level/17.png" id="level17" />
+		<asset path="level/17.xml" id="level17.layout" />
+		<image path="level/18.png" id="level18" />
+		<asset path="level/18.xml" id="level18.layout" />
+		<image path="level/19.png" id="level19" />
+		<asset path="level/19.xml" id="level19.layout" />
+		<image path="level/20.png" id="level20" />
+		<asset path="level/20.xml" id="level20.layout" />
+		<image path="level/21.png" id="level21" />
+		<asset path="level/21.xml" id="level21.layout" />
+		<image path="level/22.png" id="level22" />
+		<asset path="level/22.xml" id="level22.layout" />
+		<image path="level/23.png" id="level23" />
+		<asset path="level/23.xml" id="level23.layout" />
+		<image path="level/24.png" id="level24" />
+		<asset path="level/24.xml" id="level24.layout" />
+		<image path="level/25.png" id="level25" />
+		<asset path="level/25.xml" id="level25.layout" />
+		<image path="level/26.png" id="level26" />
+		<asset path="level/26.xml" id="level26.layout" />
+		<image path="level/27.png" id="level27" />
+		<asset path="level/27.xml" id="level27.layout" />
+		<image path="level/28.png" id="level28" />
+		<asset path="level/28.xml" id="level28.layout" />
+		<image path="level/29.png" id="level29" />
+		<asset path="level/29.xml" id="level29.layout" />
+		<image path="level/30.png" id="level30" />
+		<asset path="level/30.xml" id="level30.layout" />
+		-->
+
+	</assets>
+	
+	<assets path="assets" exclude="*.wav" if="flash" />
+	<assets path="assets" exclude="*.svg" if="html5" />
+	<assets path="assets" if="desktop" />
+	<assets path="assets" if="mobile" />
+	
+	<icon name="assets/HaxeFlixel.svg" />
+	
+	<haxelib name="nme" />
+	<haxelib name="flixel"/>
+	
+    <!--Disable the Flixel core debugger-->
+    <!--<set name="FLX_NO_DEBUG" />-->
+	
+    <!--Disable the Flixel core recording system if your not using it-->
+    <!--<set name="FLX_NO_RECORD" />-->
+	
+	<!--Optimise inputs, be careful you will get null errors if you don't use conditionals in your game-->
+    <!--<set name="FLX_NO_MOUSE" if="mobile" />-->
+    <!--<set name="FLX_NO_KEYBOARD" if="mobile" />-->
+    <!--<set name="FLX_NO_TOUCH" if="desktop" />-->
+    <!--<set name="FLX_NO_JOYSTICK" />-->
+
+</project>

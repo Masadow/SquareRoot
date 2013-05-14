@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<start x="50" y="40" />
+	<basic x="40" y="20" w="300" h="50" />
+	<basic x="220" y="93" w="120" h="150" />
+	<basic x="220" y="324" w="119" h="56" />
+	<finish x="250" y="380" w="70" h="65" />
+	<smooth x="339" y="20" w="62" h="120" />
+	<smooth x="220" y="242" w="120" h="30" />
+	<smooth x="220" y="271" w="30" h="54" />
+	<smooth x="310" y="271" w="30" h="54" />
+</data>

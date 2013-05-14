@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<start x="100" y="250" />
+	<basic x="75" y="29" w="51" h="247" />
+	<blinking x="126" y="29" w="355" h="51" />
+	<hide x="330" y="80" w="151" h="244" />
+	<fast x="481" y="265" w="150" h="29" />
+	<fast x="566" y="294" w="29" h="114" />
+	<fast x="174" y="408" w="421" h="29" />
+	<fast x="174" y="173" w="36" h="235" />
+	<finish x="210" y="173" w="52" h="52" />
+	<!-- Monsters -->
+	<enemy x="353" y="107" radius="8">
+		<path x="360" y="115" />
+		<path x="450" y="195" />
+	</enemy>
+	<enemy x="450" y="100" radius="8">
+		<path x="460" y="110" />
+		<path x="355" y="180" />
+	</enemy>
+	<enemy x="353" y="295" radius="8">
+		<path x="360" y="300" />
+		<path x="450" y="195" />
+	</enemy>
+	<enemy x="450" y="295" radius="8">
+		<path x="460" y="300" />
+		<path x="355" y="195" />
+	</enemy>
+	<!-- Potato path -->
+	<rotate_cmd x="558" y="150" w="73" h="115" />
+	<fast x="575" y="79" w="24" h="71" />
+	<potato x="557" y="37" w="49" h="42" />
+</data>

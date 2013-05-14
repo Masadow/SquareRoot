@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<start x="115" y="75" />
+	<!-- FIRST LINE -->
+	<basic x="86" y="52" w="84" h="113" />
+	<smooth x="86" y="165" w="84" h="87" />
+	<basic x="86" y="252" w="84" h="126" />
+	<!-- FIRST LINE MONSTERS -->
+	<enemy x="95" y="165" radius="12">
+		<path x="105" y="175" />
+		<path x="158" y="242" />
+	</enemy>
+	<enemy x="120" y="200" radius="12">
+		<path x="105" y="242" />
+		<path x="158" y="175" />
+	</enemy>
+	<!-- BLINKING -->
+	<blinking x="170" y="284" w="69" h="94" />
+	<blinking x="239" y="236" w="97" h="89" />
+	<blinking x="336" y="284" w="80" h="89" />
+	<blinking x="416" y="226" w="86" h="103" />
+	<blinking x="349" y="133" w="100" h="93" />
+	<blinking x="272" y="69" w="77" h="89" />
+	<blinking x="349" y="37" w="85" h="65" />
+	<!-- FINISH -->
+	<rotate_cmd x="434" y="37" w="178" h="65" />
+	<finish x="534" y="102" w="78" h="91" />
+</data>

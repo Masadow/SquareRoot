@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<start x="307" y="232" />
+	<!-- FINISH -->
+	<finish x="20" y="20" w="63" h="47" />
+	<finish x="20" y="412" w="63" h="47" />
+	<finish x="555" y="412" w="63" h="47" />
+	<finish x="555" y="20" w="63" h="47" />
+	<!-- MIDDLE -->
+	<basic x="161" y="129" w="320" h="222" />
+	<!-- SMOOTH RAMP -->
+	<smooth x="83" y="223" w="78" h="24" />
+	<smooth x="481" y="224" w="74" h="24" />
+	<smooth x="306" y="67" w="37" h="62" />
+	<smooth x="307" y="351" w="37" h="61" />
+	<!-- FINISH LINKS -->
+	<rotate_cmd x="20" y="67" w="63" h="345" />
+	<rotate_cmd x="555" y="67" w="63" h="345" />
+	<rotate_cmd x="83" y="20" w="473" h="47" />
+	<rotate_cmd x="83" y="412" w="473" h="47" />
+	<!-- ENEMY -->
+	<enemy x="180" y="150" radius="8">
+		<path x="180" y="150" />
+		<path x="450" y="150" />
+		<path x="450" y="330" />
+		<path x="180" y="330" />
+	</enemy>
+	<enemy x="30" y="30" radius="16">
+		<path x="52" y="45" />
+		<path x="52" y="435" />
+		<path x="590" y="435" />
+		<path x="590" y="45" />
+	</enemy>
+</data>

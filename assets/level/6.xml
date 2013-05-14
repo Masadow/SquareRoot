@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<start x="530" y="435" />
+	<fast x="120" y="376" w="29" h="46" />
+	<fast x="120" y="422" w="446" h="39" />
+	<!-- First column -->
+	<basic x="95" y="103" w="73" h="273" />
+	<enemy x="125" y="115" radius="16">
+		<path x="135" y="125"/>
+		<path x="135" y="350" />
+	</enemy>
+	<smooth x="168" y="148" w="66" h="22" />
+	<smooth x="212" y="170" w="22" h="148" />
+	<smooth x="212" y="317" w="53" h="22" />
+	<!-- Second column -->
+	<basic x="265" y="102" w="73" h="273" />
+	<enemy x="295" y="115" radius="16">
+		<path x="305" y="125"/>
+		<path x="305" y="350" />
+	</enemy>
+	<blinking x="338" y="148" w="70" h="19" />
+	<blinking x="387" y="167" w="21" h="147" />
+	<blinking x="387" y="314" w="63" h="21" />
+	<!-- Third column -->
+	<basic x="450" y="101" w="73" h="273" />
+	<enemy x="480" y="115" radius="16">
+		<path x="490" y="125"/>
+		<path x="490" y="350" />
+	</enemy>
+	<freeze x="491" y="38" w="20" h="63" />
+	<finish x="460" y="8" w="83" h="30" />
+</data>
